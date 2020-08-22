@@ -38,7 +38,7 @@ class bruteForceMainLogic:
     @staticmethod
     def password(passwguess):
         global password
-        password = None  # todo Learn Selenium and write a variable to reference the sign in area of a page
+        password = None  # todo Learn Selenium
         if passwguess == password:
             pass  # todo Write method
     digits = input("Digit Amount:")
